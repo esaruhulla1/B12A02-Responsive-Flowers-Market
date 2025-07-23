@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-noto-serif{
+  font-family: "Noto Serif", serif; 
+}
+.main-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+:root{
+    --main-color:#E95A08;
+    --main-font-color:#000000;
+    --secoudary-font-color: #7b7c80;
+    
+}
+
+/* nav style here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.menu{
+    display: flex;
+
+}
+.menu li{
+    list-style: none;
+    margin-left: 48px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    
+}
+#menu-home{
+    font-weight: bold;
+    color: #252432;
+}
+.menu-gray{
+    color: var(--secoudary-font-color);
+}
+#menu-card{
+    color: var(--main-font-color);
+    font-weight: 500;
+}
+/* banner style here */
+.banner{
+    display: flex;
+    align-items: end;
+    margin-bottom: 120px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+    
+}
+.banner-title span{
+    color: var(--main-color);
+}
+.banner-description{
+    font-size: 1.37rem;
+    color: var(--secoudary-font-color); 
+}
+
