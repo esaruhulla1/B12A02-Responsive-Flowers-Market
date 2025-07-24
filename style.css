@@ -22,6 +22,22 @@
     --secoudary-font-color: #7b7c80;
     
 }
+.common-section-title{
+    font-size: 3.12rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.common-section-title span{
+    color: var(--main-color);
+}
+.common-section-sub-title{
+    font-size: 1.37rem;
+    color: var(--secoudary-font-color);
+    text-align: center;
+    max-width: 888px;
+    margin: auto;
+}
 
 /* nav style here */
 nav{
@@ -74,4 +90,34 @@ nav{
     font-size: 1.37rem;
     color: var(--secoudary-font-color); 
 }
+/* plalnts section style here */
+.card-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
 
+.item{
+    text-align: center;
+}
+.item h4{
+    font-size: 1.37rem;
+    font-weight: 500;
+    margin-top: 25px;
+
+}
+.item h3{
+    font-size: 1.37rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.item-btn{
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px 50px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
