@@ -328,3 +328,40 @@ nav {
     color: white;
     border: none;
 }
+/* footer section style here */  
+       
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 110px;
+    justify-content: space-between;
+}
+.footer-logo{
+    max-width: 350px;
+    cursor: pointer;
+    
+}
+.footer-logo p {
+    font-size: 1.37rem;
+    color: var(--secoudary-font-color);
+    margin-top: 16px;
+}
+footer ul li{
+    color: var(--secoudary-font-color);
+    font-size: 1.5rem;
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.social-media {
+    max-width: 216px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    
+}
+.social-media img{
+ width: 100%;
+}
