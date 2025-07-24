@@ -121,3 +121,46 @@ nav{
     border: none;
     font-size: 1rem;
 }
+/* Plants Lover Section style */
+.plants-lover-section{
+    margin-top: 210px;
+    display: flex;
+    /* gap: 60px; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    position: relative;
+}
+.plants-lover-section-img img{
+    width: 100%;
+    max-height: 530px;
+    
+}
+.plants-lover-section-img{
+    flex: 1;
+}
+.plants-lover-section-content{
+    flex: 1;
+    margin-left: 25px;
+}
+
+.plants-lover-section-content h1{
+    font-size: 3.12rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.plants-lover-section-content ul li{
+    color: var(--secoudary-font-color);
+    font-size: 1.37rem;
+    margin-bottom: 20px;
+}
+.plants-lover-section-badge{
+    max-width: 286px;
+    position: absolute;
+    top: -127px;
+    left: 347px;
+}
+.plants-lover-section-badge img{
+    width: 100%;
+
+}
