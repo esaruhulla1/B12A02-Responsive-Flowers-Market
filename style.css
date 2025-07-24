@@ -45,6 +45,14 @@
     margin: auto;
 }
 
+button:hover {
+    background-color: #ff5e01;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+
 /* nav style here */
 nav {
     display: flex;
@@ -179,11 +187,25 @@ nav {
     margin-bottom: 20px;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 .plants-lover-section-badge {
     max-width: 286px;
     position: absolute;
     top: -127px;
     left: 347px;
+    animation: spin 2s linear infinite;
+
 }
 
 .plants-lover-section-badge img {
@@ -313,41 +335,48 @@ nav {
     margin: 23px 122px;
 
 }
-.input{
+
+.input {
     display: flex;
 }
-#email-input{
+
+#email-input {
     width: 70%;
     padding: 15px 20px;
     border: none;
 }
-#submit-btn{
+
+#submit-btn {
     width: 30%;
     padding: 15px 20px;
     background-color: var(--main-color);
     color: white;
     border: none;
 }
-/* footer section style here */  
-       
-footer{
+
+/* footer section style here */
+
+footer {
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     gap: 110px;
     justify-content: space-between;
 }
-.footer-logo{
+
+.footer-logo {
     max-width: 350px;
     cursor: pointer;
-    
+
 }
+
 .footer-logo p {
     font-size: 1.37rem;
     color: var(--secoudary-font-color);
     margin-top: 16px;
 }
-footer ul li{
+
+footer ul li {
     color: var(--secoudary-font-color);
     font-size: 1.5rem;
     list-style: none;
@@ -360,8 +389,9 @@ footer ul li{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    
+
 }
-.social-media img{
- width: 100%;
+
+.social-media img {
+    width: 100%;
 }
