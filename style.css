@@ -554,7 +554,7 @@ footer ul li {
 
     .join-section-content-contaier h1 {
         font-size: 1.5rem;
-        margin: auto 70px 26px 70px;
+        margin: auto 10px 26px 10px;
         text-align: center;
     }
 
@@ -564,6 +564,10 @@ footer ul li {
 
     #email-input {
         padding: 25px 20px;
+    }
+
+    #submit-btn {
+        padding: 11px 27px;
     }
 
     /* footer */
