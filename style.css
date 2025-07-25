@@ -509,6 +509,11 @@ footer ul li {
         font-size: 2rem;
     }
 
+    .plants-lover-section-content {
+        margin-left: 17px;
+        text-align: left;
+    }
+
     /* Latest Deal */
     .deal-section {
         margin: 140px 16px 40px 16px;
