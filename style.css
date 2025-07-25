@@ -1,4 +1,4 @@
-* {
+auto    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -563,7 +563,7 @@ footer ul li {
     }
 
     .join-section-content-contaier h1 {
-        font-size: 1rem;
+        font-size: 1.25rem;
         margin: auto 5px 26px 5px;
         text-align: center;
     }
@@ -578,13 +578,14 @@ footer ul li {
 
     #submit-btn {
         padding: 11px 27px;
+        width: auto;
     }
 
     /* footer */
     footer {
         margin-left: 15px !important;
         margin-right: 15px !important;
-        gap: 20px;
+        gap: 0px;
         justify-content: space-between;
         flex-direction: column;
     }
@@ -592,14 +593,20 @@ footer ul li {
     .footer-logo p {
         font-size: 1rem;
     }
+    .footer-menu-fast{
+        margin-bottom: 0px;
+    }
+    .footer-menu-secound{
+        margin-top: 0px;
+    }
 
     footer ul li {
-        line-height: 80px;
+        line-height: 60px;
         color: #6b7280;
     }
 
     .social-media {
-        max-width: 290px;
+        max-width: 254px;
         gap: 24px;
     }
 }
