@@ -460,8 +460,8 @@ footer ul li {
     }
 
     .plants-sub-title {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .common-section-sub-title {
@@ -563,8 +563,8 @@ footer ul li {
     }
 
     .join-section-content-contaier h1 {
-        font-size: 1.5rem;
-        margin: auto 10px 26px 10px;
+        font-size: 1rem;
+        margin: auto 5px 26px 5px;
         text-align: center;
     }
 
